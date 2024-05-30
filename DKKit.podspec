@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of DKKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/git/DKKit'
+  s.homepage         = 'https://github.com/xiezhongmin/DKKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'git' => '364101515@qq.com' }
-  s.source           = { :git => 'https://github.com/git/DKKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xiezhongmin/DKKit.git, :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
@@ -37,5 +37,4 @@ TODO: Add long description of the pod here.
   }
 
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

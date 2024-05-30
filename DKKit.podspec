@@ -31,10 +31,5 @@ TODO: Add long description of the pod here.
   s.source_files = 'DKKit/**/**/*.{h,m}'
   s.public_header_files = 'DKKit/**/**/*.{h}'
 
-  
-  s.resource_bundles = {
-    'DKKit' => ['DKKit/Assets/*.png']
-  }
-
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary'
 end
